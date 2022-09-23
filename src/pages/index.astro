@@ -21,9 +21,9 @@ import SmsIcon from '../components/icons/Sms.astro';
 			description="Take time to do what you love, we'll take care of the cleaning."
 		/>
 	</head>
-	<body class='max-w-lg mx-auto p-8 bg-slate-50'>
+	<body class='max-w-lg mx-auto p-8 bg-slate-50 flex justify-between flex-col h-screen'>
 		<!-- <Nav /> -->
-
+<div>
 		<header>
 			<h1 class="uppercase text-center font-serif text-5xl mt-8 font-extrabold"><span class="text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-fuchsia-600">Two Mom's<br/>and a Mop</span></h1>
 			<h2 class="text-center mt-4 mb-16 text-fuchsia-600">Take time to do what you love, we'll take care of the cleaning.</h2>
@@ -38,12 +38,13 @@ import SmsIcon from '../components/icons/Sms.astro';
 				<li><Link href="sms:+17053020404"><span class="flex gap-2 items-center"><SmsIcon/>Send us a text</span></Link></li>
 			</ul>
 
-			<h3 class="text-center uppercase mt-6 text-slate-600">Social media</h3>
+			<h3 class="text-center uppercase text-slate-600">Social media</h3>
 			<ul>
 				<li><Link href="https://www.instagram.com/two.moms.and.a.mop/" target="_blank"><span class="flex gap-2 items-center"><InstagramIcon/>See us on Instagram</span></Link></li>
 			</ul>
 
 		</main>
+	</div>
 		<Footer />
 	</body>
 </html>
