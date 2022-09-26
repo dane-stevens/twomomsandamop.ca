@@ -33,7 +33,7 @@ import SmsIcon from '../components/icons/Sms.astro';
 
 			<h3 class="text-center uppercase text-slate-600">Get in touch</h3>
 			<ul>
-				<li><Link href="mailto:hello@twomomsandamop.ca"><span class="flex gap-2 items-center"><EmailIcon/>Send us an email</span></Link></li>
+				<li><Link href="mailto:hello@twomomsandamop.ca" onClick={plausible("CONTACT: Email")}><span class="flex gap-2 items-center"><EmailIcon/>Send us an email</span></Link></li>
 				<li><Link href="tel:+17053020404"><span class="flex gap-2 items-center"><PhoneIcon/>Give us a call</span></Link></li>
 				<li><Link href="sms:+17053020404"><span class="flex gap-2 items-center"><SmsIcon/>Send us a text</span></Link></li>
 			</ul>
